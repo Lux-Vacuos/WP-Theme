@@ -68,7 +68,7 @@
 	color: #fff;
 }
 
-ul {
+.categories ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
@@ -76,8 +76,12 @@ ul {
 	margin-bottom: 10px;
 }
 
-li {
+.cat li {
 	margin-bottom: 10px;
+}
+
+.folllink {
+	font-size: 0pt;
 }
 
 a {
