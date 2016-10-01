@@ -12,7 +12,7 @@ add_action ( 'wp_enqueue_scripts', 'startwordpress_scripts' );
 function startwordpress_google_fonts() {
 	wp_register_style ( 'Muli', 'https://fonts.googleapis.com/css?family=Muli' );
 	wp_enqueue_style ( 'Muli' );
-	wp_register_style ( 'Muli', 'https://fonts.googleapis.com/css?family=Poppins' );
+	wp_register_style ( 'Poppins', 'https://fonts.googleapis.com/css?family=Poppins' );
 	wp_enqueue_style ( 'Poppins' );
 }
 
@@ -59,8 +59,6 @@ function custom_settings_page_setup() {
 	register_setting ( 'section', 'twitter' );
 }
 add_action ( 'admin_init', 'custom_settings_page_setup' );
-
-add_image_size( 'thumb-post', 820 );
 
 add_theme_support( 'post-thumbnails' );
 
