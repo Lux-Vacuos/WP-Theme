@@ -50,13 +50,21 @@ function setting_twitter() {
 	value="<?php echo get_option('twitter'); ?>" />
 <?php
 }
+function setting_reddit() {
+	?>
+<input type="text" name="reddit" id="reddit"
+	value="<?php echo get_option('reddit'); ?>" />
+<?php
+}
 function custom_settings_page_setup() {
 	add_settings_section ( 'section', 'All Settings', null, 'theme-options' );
 	add_settings_field ( 'youtube', 'Youtube URL', 'setting_youtube', 'theme-options', 'section' );
 	add_settings_field ( 'twitter', 'Twitter URL', 'setting_twitter', 'theme-options', 'section' );
+	add_settings_field ( 'reddit', 'Reddit URL', 'setting_reddit', 'theme-options', 'section' );
 	
 	register_setting ( 'section', 'youtube' );
 	register_setting ( 'section', 'twitter' );
+	register_setting ( 'section', 'reddit' );
 }
 add_action ( 'admin_init', 'custom_settings_page_setup' );
 

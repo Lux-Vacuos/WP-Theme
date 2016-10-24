@@ -19,9 +19,14 @@
 	<a class="folllink" href="<?php echo get_option('youtube'); ?>"> <img
 		class="follicon"
 		src="<?php bloginfo('template_directory');?>/data/images/yt-icon.png">
-	</a> <a class="folllink" href="<?php echo get_option('twitter'); ?>"> <img
+	</a> 
+	<a class="folllink" href="<?php echo get_option('twitter'); ?>"> <img
 		class="follicon"
 		src="<?php bloginfo('template_directory');?>/data/images/tw-icon.png">
+	</a>
+	<a class="folllink" href="<?php echo get_option('reddit'); ?>"> <img
+		class="follicon"
+		src="<?php bloginfo('template_directory');?>/data/images/rd-icon.png">
 	</a>
 
 </div>
