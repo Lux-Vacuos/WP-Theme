@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="shortcut icon"
-	href="<?php bloginfo('template_directory');?>/data/images/favicon.ico" />
+<link rel="icon" type="image/png"
+	href="<?php bloginfo('template_directory');?>/data/images/favicon.png" />
 	<?php wp_head();?>
 </head>
 
