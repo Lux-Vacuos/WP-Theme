@@ -4,7 +4,7 @@
 		<br>
 		<p class="text-muted footer center">
 			Lux Vacuos <span class="glyphicon glyphicon-copyright-mark"
-				aria-hidden="true"></span> 2016
+				aria-hidden="true"></span> 2016-2017
 		</p>
 	</div>
 </nav>
