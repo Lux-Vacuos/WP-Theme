@@ -12,12 +12,13 @@
 	<nav class="navbar navbar-default navbar-static-top">
 		<div class="container-fluid">
 			<a class="" href="<?php bloginfo('wpurl');?>"> <img class="logo"
-				alt="LV"
+				alt="Lux Vacuos"
 				src="<?php bloginfo('template_directory');?>/data/images/LV-Black.png">
 			</a>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="<?php bloginfo('wpurl');?>">Home</a></li>
-				<?php wp_list_pages( '&title_li='); ?>
+				<li><a href="<?php bloginfo('wpurl');?>/projects">Projects</a></li>
+				<li><a href="<?php bloginfo('wpurl');?>/about">About</a></li>
 				<li><a href="https://account.luxvacuos.net">Account</a></li>
 				<li><a href="https://github.com/Lux-Vacuos">Github</a></li>
 			</ul>

@@ -6,6 +6,7 @@ function startwordpress_scripts() {
 	wp_enqueue_script ( 'bootstrap', get_template_directory_uri () . '/data/js/bootstrap.min.js', array (
 			'jquery' 
 	), '3.3.6', true );
+	wp_enqueue_script ( 'luxvacuos', get_template_directory_uri () . '/data/js/luxvacuos.js' );
 }
 
 add_action ( 'wp_enqueue_scripts', 'startwordpress_scripts' );

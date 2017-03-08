@@ -1,3 +1,43 @@
+.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.aligncenter, div.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+
+.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Lux Vacuos */
 .center {
 	text-align: center;
 }
@@ -19,6 +59,7 @@
 }
 
 .logo {
+	max-width: 100%;
 }
 
 .right {
@@ -84,4 +125,13 @@
 
 a {
 	color: gray;
+}
+
+.img-responsive {
+	width: 100%;
+}
+
+.size-full, .size-medium, .size-large, .size-thumbnail {
+	max-width: 100%;
+	height: auto;
 }

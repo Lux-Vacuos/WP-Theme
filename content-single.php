@@ -4,7 +4,7 @@
 	</p>
 	<?php
 	if (has_post_thumbnail ()) {
-		the_post_thumbnail ( 'thumb-post' );
+		the_post_thumbnail( 'jumbo_thumbnail', array('class' => 'img-responsive'));
 	}
 	?>
 
