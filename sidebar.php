@@ -3,9 +3,6 @@
 	<h4 class="min_title">Categories</h4>
 	<ol class="list-unstyled categories">
 		<?php wp_list_categories('title_li='); ?>
-		<li class="cat"><a href="#">Lux Vacuos</a></li>
-		<li class="cat"><a href="#">Voxel</a></li>
-		<li class="cat"><a href="#">Infinity</a></li>
 	</ol>
 	
 	<h4 class="min_title">Archives</h4>
