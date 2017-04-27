@@ -1,9 +1,8 @@
 <div class="right col-md-3">
 	
 	<h4 class="min_title">Categories</h4>
-	<ol class="list-unstyled categories">
-		<?php wp_list_categories('title_li='); ?>
-	</ol>
+	<?php wp_list_categories('title_li='); ?>
+	
 	
 	<h4 class="min_title">Archives</h4>
 	<ol class="list-unstyled">

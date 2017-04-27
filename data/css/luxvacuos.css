@@ -107,12 +107,14 @@ a img.aligncenter {
 	color: #fff;
 }
 
-.categories ul {
+.cat-item {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-	margin-top: 10px;
-	margin-bottom: 10px;
+}
+
+.children {
+	padding-left: 20px;
 }
 
 .cat li {
