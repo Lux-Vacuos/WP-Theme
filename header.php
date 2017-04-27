@@ -20,7 +20,6 @@
 				<li><a href="<?php bloginfo('wpurl');?>/projects/">Projects</a></li>
 				<li><a href="<?php bloginfo('wpurl');?>/about/">About</a></li>
 				<li><a href="https://account.luxvacuos.net">Account</a></li>
-				<li><a href="https://github.com/Lux-Vacuos">Github</a></li>
 			</ul>
 		</div>
 	</nav>

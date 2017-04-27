@@ -25,5 +25,10 @@
 		class="follicon"
 		src="<?php bloginfo('template_directory');?>/data/images/rd-icon.png">
 	</a>
+	<a class="folllink" href="<?php echo get_option('github'); ?>"> <img
+		class="follicon"
+		src="<?php bloginfo('template_directory');?>/data/images/gh-icon.png">
+	</a>
+
 
 </div>
