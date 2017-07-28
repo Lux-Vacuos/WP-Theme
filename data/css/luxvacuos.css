@@ -38,6 +38,15 @@ a img.aligncenter {
 }
 
 /* Lux Vacuos */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+}
+
 .center {
 	text-align: center;
 }
@@ -51,6 +60,12 @@ a img.aligncenter {
 	border-bottom: 0px;
 	border-radius: 0px;
 	margin-top: 15px;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 15px;
+    width: 100%;
+    overflow:hidden;
 }
 
 .navbar-static-top {
